@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5788f8cf-88b0-48f8-95c6-78703f42e1a4" name="Default Changelist" comment="" />
+    <list default="true" id="5788f8cf-88b0-48f8-95c6-78703f42e1a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/springcloud-consumer-dept-80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/springcloud-consumer-dept-80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/DeptConsumer_8080.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/DeptConsumer_8080.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +58,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources" />
@@ -153,7 +163,7 @@
       <updated>1591620792472</updated>
       <workItem from="1591620797028" duration="11376000" />
       <workItem from="1591714930095" duration="232000" />
-      <workItem from="1591715165849" duration="253000" />
+      <workItem from="1591715165849" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud-Eureka集群">
       <created>1591713522072</created>
@@ -169,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591713948391</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springcloud-Eureka集群">
+      <created>1591715681355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591715681355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,10 +227,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="570" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1591715005814" />
-    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2" timestamp="1591713948260">
+    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2" timestamp="1591715680915">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591713948260" />
+    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591715680915" />
     <state x="585" y="350" width="269" height="274" key="Github.ShareDialog" timestamp="1591713391304">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -282,10 +299,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591715507181" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591713956658">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591715813544">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591713956658" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591715813544" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591713796262">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
