@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5788f8cf-88b0-48f8-95c6-78703f42e1a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_6_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/springcloud-consumer-dept-80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/springcloud-consumer-dept-80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/DeptConsumer_8080.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/DeptConsumer_8080.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/config/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/controller/DeptConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/src/main/java/com/jay/springcloud/controller/DeptConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/com/jay/springcloud/DeptConsumer_8080.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/com/jay/springcloud/DeptConsumer_8080.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/com/jay/springcloud/config/ConfigBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/com/jay/springcloud/config/ConfigBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/com/jay/springcloud/controller/DeptConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-8080/target/classes/com/jay/springcloud/controller/DeptConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptConsumer_8080 (1)">
+  <component name="RunManager" selected="Spring Boot.EurekaServer_7003">
     <configuration name="DeptConsumer_8080 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-consumer-dept-80" />
       <extension name="coverage">
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DeptConsumer_8080 (1)" />
         <item itemvalue="Spring Boot.EurekaServer_7003" />
-        <item itemvalue="Spring Boot.DeptProvider_8001" />
         <item itemvalue="Spring Boot.EurekaServer_7002" />
+        <item itemvalue="Spring Boot.DeptProvider_8001" />
         <item itemvalue="Spring Boot.EurekaServer_7001" />
+        <item itemvalue="Spring Boot.DeptConsumer_8080 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <updated>1591620792472</updated>
       <workItem from="1591620797028" duration="11376000" />
       <workItem from="1591714930095" duration="232000" />
-      <workItem from="1591715165849" duration="929000" />
+      <workItem from="1591715165849" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud-Eureka集群">
       <created>1591713522072</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591715681355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="springcloud-Eureka集群2">
+      <created>1591716603911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591716603911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +215,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="springcloud-Eureka集群" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud-Eureka集群" />
+    <MESSAGE value="springcloud-Eureka集群2" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud-Eureka集群2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1591715180557">
@@ -227,82 +235,82 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="570" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1591715005814" />
-    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2" timestamp="1591715680915">
+    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2" timestamp="1591716603774">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591715680915" />
+    <state x="195" y="23" width="1024" height="794" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591716603774" />
     <state x="585" y="350" width="269" height="274" key="Github.ShareDialog" timestamp="1591713391304">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="585" y="350" width="269" height="274" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1591713391304" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1591715228250">
+    <state width="1398" height="430" key="GridCell.Tab.0.bottom" timestamp="1591761934579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591715228250" />
+    <state width="1398" height="430" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591761934579" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1591713236812" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1591715228250">
+    <state width="1398" height="430" key="GridCell.Tab.0.center" timestamp="1591761934578">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591715228250" />
+    <state width="1398" height="430" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591761934578" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1591713236810" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1591715228249">
+    <state width="1398" height="430" key="GridCell.Tab.0.left" timestamp="1591761934577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591715228249" />
+    <state width="1398" height="430" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591761934577" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1591713236809" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1591715228250">
+    <state width="1398" height="430" key="GridCell.Tab.0.right" timestamp="1591761934578">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591715228250" />
+    <state width="1398" height="430" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591761934578" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1591713236811" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591715228252">
+    <state width="1398" height="430" key="GridCell.Tab.1.bottom" timestamp="1591761934581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591715228252" />
+    <state width="1398" height="430" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591761934581" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.794@0.23.1440.794" timestamp="1591713236659" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1591715228251">
+    <state width="1398" height="430" key="GridCell.Tab.1.center" timestamp="1591761934580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591715228251" />
+    <state width="1398" height="430" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591761934580" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.794@0.23.1440.794" timestamp="1591713236658" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1591715228251">
+    <state width="1398" height="430" key="GridCell.Tab.1.left" timestamp="1591761934579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591715228251" />
+    <state width="1398" height="430" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591761934579" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.794@0.23.1440.794" timestamp="1591713236657" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1591715228252">
+    <state width="1398" height="430" key="GridCell.Tab.1.right" timestamp="1591761934581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591715228252" />
+    <state width="1398" height="430" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591761934581" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.794@0.23.1440.794" timestamp="1591713236659" />
-    <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1591715228254">
+    <state width="1398" height="430" key="GridCell.Tab.2.bottom" timestamp="1591761934583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591715228254" />
+    <state width="1398" height="430" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591761934583" />
     <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.23.1440.794@0.23.1440.794" timestamp="1591713236662" />
-    <state width="1398" height="303" key="GridCell.Tab.2.center" timestamp="1591715228253">
+    <state width="1398" height="430" key="GridCell.Tab.2.center" timestamp="1591761934582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1591715228253" />
+    <state width="1398" height="430" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1591761934582" />
     <state width="1398" height="303" key="GridCell.Tab.2.center/0.23.1440.794@0.23.1440.794" timestamp="1591713236661" />
-    <state width="1398" height="303" key="GridCell.Tab.2.left" timestamp="1591715228252">
+    <state width="1398" height="430" key="GridCell.Tab.2.left" timestamp="1591761934582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1591715228252" />
+    <state width="1398" height="430" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1591761934582" />
     <state width="1398" height="303" key="GridCell.Tab.2.left/0.23.1440.794@0.23.1440.794" timestamp="1591713236660" />
-    <state width="1398" height="303" key="GridCell.Tab.2.right" timestamp="1591715228253">
+    <state width="1398" height="430" key="GridCell.Tab.2.right" timestamp="1591761934583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1591715228253" />
+    <state width="1398" height="430" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1591761934583" />
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.23.1440.794@0.23.1440.794" timestamp="1591713236661" />
     <state x="229" y="63" key="SettingsEditor" timestamp="1591715507181">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591715507181" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591715813544">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1591716605421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591715813544" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591716605421" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591713796262">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
