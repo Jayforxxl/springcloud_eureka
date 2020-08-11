@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 /**
- * Description:
+ * Description:模拟客户端
  *
  * @author ZhangJieChao
  * @version 1.0
